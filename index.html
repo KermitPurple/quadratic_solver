@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quadratic Solver</title>
+        <meta name="viewport" content="width=device-width">
+        <link href="index.css" type="text/css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.4.0/math.js" integrity="sha512-sUg3/7DzyxwAwb2W5qbB9gWu/gsrJle/GN+AF4RJlQh38CT3xhL4jsW4iiCVRIErDWm0oz6mF9LCcehU1mwxcg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Quadratic Solver</h1>
+            <label>a =</label>
+            <input type="number" value="1" name="coef-a" onInput="updateRoots()" id="coef-a" class="coef"/>
+            <label>b =</label>
+            <input type="number" value="2" name="coef-b" onInput="updateRoots()" id="coef-b" class="coef"/>
+            <label>c =</label>
+            <input type="number" value="1" name="coef-c" onInput="updateRoots()" id="coef-c" class="coef"/>
+            <h3>Roots:</h3>
+            <div id="roots">
+                <div class="root"></div>
+                <div class="root"></div>
+            </div>
+        </div>
+    </body>
+</html>

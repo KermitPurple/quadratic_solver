@@ -1,0 +1,28 @@
+:root{
+    --fg: #eee;
+    --bg: #111;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--fg);
+    background: var(--bg);
+}
+
+.container{
+    text-align: center;
+}
+
+.coef{
+    width: 40px;
+    background: var(--fg);
+    border-color: var(--fg);
+    color: var(--bg);
+}
