@@ -11,11 +11,11 @@
         <div class="container">
             <h1>Quadratic Solver</h1>
             <label>a =</label>
-            <input type="number" value="1" name="coef-a" onInput="updateRoots()" id="coef-a" class="coef"/>
+            <input type="number" value="1" name="coef-a" onChange="justifyNumberInput(this)" onInput="updateRoots()" id="coef-a" class="coef"/>
             <label>b =</label>
-            <input type="number" value="2" name="coef-b" onInput="updateRoots()" id="coef-b" class="coef"/>
+            <input type="number" value="2" name="coef-b" onChange="justifyNumberInput(this)" onInput="updateRoots()" id="coef-b" class="coef"/>
             <label>c =</label>
-            <input type="number" value="1" name="coef-c" onInput="updateRoots()" id="coef-c" class="coef"/>
+            <input type="number" value="1" name="coef-c" onChange="justifyNumberInput(this)" onInput="updateRoots()" id="coef-c" class="coef"/>
             <h3>Roots:</h3>
             <div id="roots">
                 <div class="root"></div>

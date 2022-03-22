@@ -29,4 +29,11 @@ function updateRoots(){
         els.roots[i].innerHTML = roots[i];
 }
 
+function justifyNumberInput(el){
+    if(el.value === '' || parseInt(el.value) === NaN){
+        el.value = '0';
+    }
+    updateRoots()
+}
+
 updateRoots();
